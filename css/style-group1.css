@@ -1,0 +1,266 @@
+.group1-style-1 {
+    background-image: linear-gradient(-147deg, rgb(94, 44, 139), rgb(0, 0, 0));
+
+    top: 0px;
+    margin: 0;
+    bottom: 0;
+    height: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+
+}
+
+.black-background {
+    background: rgba(0, 0, 0, 0.048);
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    height: 800px;
+
+}
+
+.bg {
+    z-index: 1;
+}
+
+.background-video {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+    width: 800px;
+    height: 800px;
+    background: rgb(0, 0, 0);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+
+
+
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+
+    .background-video {
+        width: 100%;
+        height: 800px;
+
+
+
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .background-video {
+        width: auto;
+        height: 800px;
+        display: block;
+    }
+}
+
+/* text myportofolio */
+
+/* TIDAK AKTIF */
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+.portfolio {
+
+    display: block;
+    position: absolute;
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 4;
+    transition: 1s;
+    opacity: 2;
+    /* background: #ffffff; */
+    vertical-align: middle;
+
+    animation-name: PORTFOLIO;
+    animation-duration: 1s;
+
+
+
+    /* clip-path: polygon(15% 0, 100% 1%, 100% 100%, 15% 100%, 0% 50%); */
+    /* box-shadow: 0px 0px 50px 0px rgb(41, 171, 223); */
+
+}
+
+/* .dropshadow {
+    filter: drop-shadow(0px 0px 20px #04a3ff);  
+} */
+.grid1 {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    overflow: hidden;
+    top: 10%;
+    margin: 0 auto;
+    /* background: blanchedalmond; */
+    /* transform: translateX(10%); */
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    animation-name: PORTFOLIO;
+    animation-iteration-count: NONE;
+    animation-duration: 1s;
+    border-radius: 100%;
+    border-style: double;
+    border-color: #01d9ff;
+    border-width: 10px;
+    box-shadow: 0px 0px 10px 0px #01d9ff;
+
+
+
+}
+
+.circle {
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    top: 7%;
+    transform: rotate(360deg);
+
+    left: 75px;
+    transition: 1s;
+    width: 650px;
+    height: 650px;
+    animation-name: PORTFOLIO;
+    background: rgba(19, 19, 19, 0.452);
+    animation-duration: 0.7s;
+    animation-iteration-count: NONE;
+    animation: rotasi 1s linear 0s 1 alternate;
+    border-radius: 100%;
+    border-right: none;
+    border-right: left;
+    border-top: 8px solid rgb(187, 9, 172);
+    border-bottom: 8px solid rgb(0, 132, 255);
+
+    border-width: 10px;
+    box-shadow: 0px 0px 10px 0px #63085e;
+
+
+
+}
+
+@keyframes rotasi {
+
+    0% {
+        transform: rotate(360deg);
+
+    }
+
+    50% {
+        transform: rotate(720deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.grid1-profile {
+
+    width: 600px;
+    height: 800px;
+
+    margin: auto;
+    opacity: 1;
+    margin-top: -20%;
+
+    margin-bottom: 10%;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute !important;
+    background: url(../img/photoprofile.jpg);
+    /* border-radius: 50% 50% 50% 50%; */
+    border: 2px solid rgba(252, 252, 252, 0.527);
+
+    transform: translateZ(2);
+    box-shadow: 0px 0px 10px 0px rgb(121, 217, 255);
+
+
+}
+
+
+.textbox {
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 20px rgb(0, 183, 255);
+    font-family: "glyp" !important;
+    font-size: 60px;
+    width: 100%;
+    height: auto;
+    /* animation-name: textbox;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+}
+
+
+
+
+.grid1 .boxnama {
+    bottom: -400px;
+
+    position: relative;
+}
+
+.grid1 h1 {
+
+
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    font-family: 'galaxy';
+    text-shadow: 0px 0px 20px rgb(0, 183, 255);
+
+    margin: 2%;
+    animation-name: textbox;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+.grid1 P {
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    font-family: "school";
+    text-shadow: 0px 0px 20px #ffffff;
+    text-decoration-line: overline;
+
+     animation-name: textbox;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+
+
+}
+
+.black-background {
+    background-color: black;
+    z-index: 2;
+}

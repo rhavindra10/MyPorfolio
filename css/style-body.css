@@ -1,0 +1,81 @@
+/* bodystyle */
+body {
+    height: auto;
+
+
+    padding: 0;
+    min-width: 1020px;
+    width: 1900PX;
+    max-width: 100%;
+    position: flex;
+    vertical-align: middle;
+    background: black;
+    margin: 0 auto;
+
+
+
+}
+
+.ONE {
+
+
+    background: none;
+    animation-name: ONE none;
+    animation-duration: 2s;
+}
+
+/* scroll bar web */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(-140deg, rgb(20, 146, 184), rgb(0, 95, 150));
+
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(-140deg, rgb(20, 146, 184), rgb(234, 0, 255));
+
+}
+
+/* scrollbar web end */
+.spanglow {
+
+    position: fixed !important;
+
+}
+
+/* 
+footer {
+    background-color: black;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    z-index: 1;
+    height: 100px;
+    max-height: 100%;
+    left: 0px;
+    position: relative;
+
+bottom: 0;
+    line-height: 100px;
+
+    text-align: center;
+} */
+/*
+footer p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+} */

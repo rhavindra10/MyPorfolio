@@ -1,0 +1,177 @@
+.group2-style-1 {
+    background-image: linear-gradient(-147deg, rgb(0, 0, 0), rgb(169, 88, 216));
+
+    /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
+    top: 0px;
+    margin: 0;
+    bottom: 0;
+    height: 900px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+overflow: hidden;
+
+}
+
+
+
+.group2-style-1 .boxgroup {
+
+
+    background: none;
+    position: relative;
+
+
+}
+
+.group2-style-1 .boxgroup img {
+    opacity: 0.5;
+    top: 0px;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+
+}
+
+
+
+.group2-style-1 .boxgroup-boxcenter {
+
+    margin-top: 10% !important;
+    width: 100%;
+    height: 500px;
+    padding-top: 2%;
+    background-image: linear-gradient(-147deg, rgb(0, 91, 133), rgb(130, 9, 211));
+    position: absolute;
+    clip-path: polygon(90% 0, 100% 49%, 90% 100%, 10% 100%, 0% 50%, 10% 0);
+    animation-name: GROUP2-BOX;
+    animation-duration: 0.5s;
+    animation-delay: none;
+
+    animation: GROUP2-BOX-skew 0.5s;
+
+}
+
+.group2-style-1 .boxgroup-boxcenter .Jdl {
+    text-align: center !important;
+    font-family: 'galaxy';
+    margin-top: -10px;
+    position: center;
+    font-size: 100px;
+    color: white;
+    top: 0px;
+    animation-name: GROUP2-BOX;
+    animation-duration: 1s;
+    animation-delay: none;
+
+    text-shadow: 0px 10px 0px rgb(56, 9, 83);
+}
+
+
+.group2-style-1 .boxgroup-boxcenter-box {
+    background: rgba(0, 0, 0, 0.301);
+    height: 300px;
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    overflow: hidden;
+
+    animation-name: GROUP2-BOX;
+    animation-duration: 1.5s;
+    animation-delay: none;
+
+}
+
+
+
+
+
+.group2-style-1 .box1 {
+
+    float: left !important;
+    padding: 1%;
+    margin: 0px;
+    border-radius: 0px;
+    word-wrap: break-word;
+    /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
+    width: 50%;
+
+    height: auto;
+
+    text-align: left;
+    font-family: 'fontwrite1';
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative !important;
+    /* background: url(../img/group2bg.jpg); */
+
+
+    left: 0%;
+
+
+
+}
+
+.boxshadow-shadow {
+    padding: 2%;
+    opacity: 2;
+    background: rgba(37, 37, 37, 0.377);
+    border-radius: 12px;
+
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+}
+
+.group2-style-1 .box1 p {
+    text-align: justify;
+    text-decoration: none;
+    padding: 0;
+    font-style: italic;
+    justify-content: center;
+
+
+}
+
+.group2-style-1 .box2 {
+
+
+    padding: 1%;
+    margin: 0px;
+    border-radius: 5px;
+    /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
+    float: right;
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    text-align: left;
+    font-family: 'fontwrite1';
+    color: rgb(255, 255, 255);
+    font-size: 20PX;
+    position: relative;
+    word-wrap: break-word;
+
+    /* background: url(../img/group2bg.jpg); */
+
+
+    right: 0% !important;
+
+
+}
+
+
+.group2-style-1 .box2 p {
+    text-align: justify;
+    text-decoration: none;
+    padding: 0;
+    font-style: italic;
+    justify-content: center;
+
+}

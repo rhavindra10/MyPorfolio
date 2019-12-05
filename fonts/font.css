@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'TheBlacklist';
+	src: url('./TheBlacklist.eot');
+	src: local('TheBlacklist'), url('./TheBlacklist.woff') format('woff'), url('./TheBlacklist.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79299">Text with this font applied</p> */
+
+
+@font-face {
+	font-family: 'school';
+	src: url('./SchoolTimes.ttf');
+
+}
+
+/* Font downloaded from FontsForWeb.com */
+
+@font-face {
+	font-family: 'glyp';
+	src: url('./Scream\ Real.ttf');
+
+}
+
+@font-face {
+	font-family: 'balon';
+	src: url('./BALLSONTHERAMPAGE.ttf');
+
+}
+
+@font-face {
+	font-family: 'galaxy';
+	src: url('./Galaxy\ Force.ttf');
+
+}
+
+@font-face {
+	font-family: 'fontwrite1';
+	src: url('./KIN668.TTF');
+
+}

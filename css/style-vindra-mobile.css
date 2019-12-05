@@ -1,0 +1,125 @@
+@media (max-width:800px) {
+    .tanggal {
+        position: fixed;
+        right: 20px;
+        bottom: 70px;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 30px;
+        width: 250px;
+        min-width: 0;
+
+    }
+
+    .clock {
+        z-index: 0;
+        position: fixed;
+        left: 20px;
+        bottom: 70px;
+        padding: 10px;
+        color: aliceblue;
+        font-size: 30px;
+        width: 150px;
+    }
+
+    .textbox {
+        font-size: 40px;
+
+    }
+
+
+    .btnnav {
+        height: 150px;
+        width: 150px;
+        left: 0%;
+        animation-name: none;
+        animation-name: moves700back;
+        animation-duration: 0.5s;
+
+    }
+
+    .btnchange {
+        height: 100px;
+        width: 100px;
+        top: -65%;
+        animation-name: moves700;
+        animation-duration: 0.5s;
+
+        transform: rotate(0deg);
+
+
+
+    }
+
+
+
+
+    .btnsmallgroup {
+
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        transform: rotate(360deg);
+        transform: 1s;
+    }
+
+    .btnsmall {
+
+        height: 85px;
+        width: 85px;
+        animation-name: opacity;
+        animation-duration: 1s;
+
+
+    }
+
+    .smallbtn1 {
+        top: 0px;
+        position: absolute;
+        transform: translate(-10%, -160px);
+
+
+    }
+
+    .smallbtn2 {
+        position: absolute;
+        top: 0px;
+        transform: translate(-10px, -160px);
+    }
+
+    .smallbtn3 {
+        top: 0px;
+        position: absolute;
+        transform: translate(150px, -160px);
+    }
+
+    .smallbtn4 {
+        top: 0px;
+        position: absolute;
+        transform: translate(350px, -160px);
+    }
+
+
+
+    .shape-left {
+        height: 35%;
+        top: 32%;
+    }
+
+    .shapeglow-left {
+        height: 35%;
+        top: 32%;
+    }
+
+    .shape-right {
+        height: 35%;
+        top: 32%;
+    }
+
+    .shapeglow-right {
+        height: 35%;
+        top: 32%;
+    }
+
+
+}
