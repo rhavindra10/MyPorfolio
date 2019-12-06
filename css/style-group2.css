@@ -12,7 +12,7 @@
     z-index: 1;
     display: block;
     text-align: center;
-overflow: hidden;
+    overflow: hidden;
 
 }
 
@@ -41,7 +41,7 @@ overflow: hidden;
 
 
 .group2-style-1 .boxgroup-boxcenter {
-
+    color: whitesmoke;
     margin-top: 10% !important;
     width: 100%;
     height: 500px;
@@ -91,31 +91,6 @@ overflow: hidden;
 
 
 
-.group2-style-1 .box1 {
-
-    float: left !important;
-    padding: 1%;
-    margin: 0px;
-    border-radius: 0px;
-    word-wrap: break-word;
-    /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
-    width: 50%;
-
-    height: auto;
-
-    text-align: left;
-    font-family: 'fontwrite1';
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    position: relative !important;
-    /* background: url(../img/group2bg.jpg); */
-
-
-    left: 0%;
-
-
-
-}
 
 .boxshadow-shadow {
     padding: 2%;
@@ -128,50 +103,18 @@ overflow: hidden;
     box-shadow: 0px 10px 13px -7px #000000,
         5px 5px 15px 5px rgba(0, 0, 0, 0);
 
-}
-
-.group2-style-1 .box1 p {
-    text-align: justify;
-    text-decoration: none;
-    padding: 0;
-    font-style: italic;
-    justify-content: center;
-
 
 }
 
-.group2-style-1 .box2 {
-
-
-    padding: 1%;
+.box {
     margin: 0px;
-    border-radius: 5px;
+
     /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
-    float: right;
-    width: 50%;
-    height: auto;
-    max-height: 100%;
-    text-align: left;
+    text-align: justify;
     font-family: 'fontwrite1';
     color: rgb(255, 255, 255);
     font-size: 20PX;
     position: relative;
     word-wrap: break-word;
-
-    /* background: url(../img/group2bg.jpg); */
-
-
-    right: 0% !important;
-
-
-}
-
-
-.group2-style-1 .box2 p {
-    text-align: justify;
-    text-decoration: none;
-    padding: 0;
     font-style: italic;
-    justify-content: center;
-
 }

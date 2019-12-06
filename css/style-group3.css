@@ -70,12 +70,11 @@
     color: rgb(255, 255, 255);
     font-size: 100px;
     position: relative;
-
     top: 0px;
-
     text-shadow: 0px 10px 0px rgb(0, 0, 0);
-    /* animation-name: textbox;
-    animation-duration: 1s; */
+    animation-name: BOX1CONTENT;
+    animation-duration: 1s;
+
 
 }
 
@@ -90,6 +89,11 @@
 
     -webkit-box-shadow: 0px 28px 16px -16px #000000;
     box-shadow: 0px 28px 16px -16px #000000;
+
+    animation-name: bxslide;
+    animation-duration: 1.5s;
+
+
 }
 
 .bxslide img {
@@ -118,6 +122,8 @@
     left: 20px !important;
     position: absolute;
 
+    animation-name: nextprev;
+    animation-duration: 2s;
 
     border-radius: 100%;
 
@@ -133,7 +139,9 @@
     top: 500px !important;
     right: 20px !important;
     position: absolute;
-
+    animation-name: nextprev;
+    animation-duration: 2s;
+ 
 
     border-radius: 100%;
 
