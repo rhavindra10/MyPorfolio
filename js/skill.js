@@ -29,7 +29,7 @@ $(function () {
         scaleColor: false,
         lineWidth: 20,
         lineCap: 'butt',
-        barColor: 'rgb(255, 0, 0)',
+        barColor: '#0075ab',
         trackColor: 'rgb(14,53,92)',
         size: 150,
         animate: 4000,
@@ -72,21 +72,23 @@ $('.count').each(function () {
 
 
 // tanggalan
-(function () {
-    var d = new Date();
-    document.getElementById("demo").innerHTML = d.toDateString();
-}());
+// (function () {
+//     var d = new Date();
+//     document.getElementById("demo").innerHTML = d.toDateString();
+// }());
+
+
 // fungsi clock jam
-(function () {
+// (function () {
 
-    var clockElement = document.getElementById("clock");
+//     var clockElement = document.getElementById("clock");
 
-    function updateClock(clock) {
-        clock.innerHTML = new Date().toLocaleTimeString();
-    }
+//     function updateClock(clock) {
+//         clock.innerHTML = new Date().toLocaleTimeString();
+//     }
 
-    setInterval(function () {
-        updateClock(clockElement);
-    }, 1000);
+//     setInterval(function () {
+//         updateClock(clockElement);
+//     }, 1000);
 
-}());
+// }());
