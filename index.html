@@ -44,16 +44,40 @@
 
         </style>
 
+        <section class="btngroup ">
+
+            <input type="hidden" id="btn-val" value="0">
+            <button id="btn-nav" class="btnnav ">
+
+                <span class="glyphicon glyphicon-chevron-right span " style="display: block;" aria-hidden="true"></span>
+
+            </button>
+
+        </section>
 
 
+        <section class="nav">
 
-
+            <input type="hidden" id="btnchangeval" value="0">
+            <a href="#" id="clickbutton1" class="smallbtn1 smallbtn">
+                <button class="btnsmall portofolio">PORTFOLIO</button>
+            </a>
+            <a href="#" id="clickbutton2" class="smallbtn2 smallbtn">
+                <button class="btnsmall cv">CURICULUM VITAE</button>
+            </a>
+            <a href="#" id="clickbutton3" class="smallbtn3 smallbtn">
+                <button class="btnsmall galery">3</button>
+            </a>
+            <a href="#" id="clickbutton4" class="smallbtn4 smallbtn">
+                <button class="btnsmall about">4</button>
+            </a>
+        </section>
 
 
 
         <!-- <?php include "window.php" ?> -->
 
-        <section class="group1-style-1 ">
+        <section class="group1-style-1 text-center">
 
 
             <section class="group1-box">
@@ -85,14 +109,14 @@
 
 
 
-        <section class="group2-style-1 ">
-            <div class="boxgroup col">
+        <section class="group2-style-1 text-center">
+            <div id="ABOUTJS" class="boxgroup col">
                 <img src="img/group2bg.jpg">
                 <section class="boxgroup-boxcenter col">
                     <div class="Jdl">
                         ABOUT
                     </div>
-                    <div class="boxgroup-boxcenter-box boxshadow-shadow box">
+                    <div class="boxgroup-boxcenter-box boxshadow-shadow boxabout">
                         <div class=" col-sm-6">
 
                             <p> " saya adalah mahasiswa tingkat akhir yang memiliki sebuah impian menjadi
@@ -156,7 +180,7 @@
 
 
 
-        <section class="group3-style-1">
+        <section id='MYWORK' class="group3-style-1 text-center">
             <div class="box1">
                 <div class="box1content ">
                     <h1 class="">MY WORK </h1>
@@ -245,7 +269,7 @@
 
                     <a class="carousel-control-prev   penn" href="#carouselExampleInterval" role="button"
                         data-slide="prev">
-                        <span class="carousel-control-prev-icon  "  aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon  " aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next   nenn" href="#carouselExampleInterval" role="button"
@@ -273,7 +297,7 @@
 
 
 
-        <section class="groupskill group3-style-1 p-5 ">
+        <section id="GROUPSKILL" class="groupskill group3-style-1 p-5 text-center">
             <div class="title ">SKILL</div>
             <div class="graph-one mt-5 ">
                 <div class="circle-graph-container float-left col-6 bg-none    ">
@@ -281,7 +305,7 @@
                         <h1 class="title-sub ">FRONT-END</h1>
                     </div>
                     <div class="collumcenter bg-none">
-                        <div class="skill ">
+                        <div class="skillpersent ">
                             <p>HTML</p>
                             <div class="boxcircle">
                                 <div class="circle-graph1 progresscircle " data-percent="70"></div>
@@ -292,7 +316,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>CSS</p>
                             <div class="boxcircle">
                                 <div class="circle-graph1 progresscircle " data-percent="70"></div>
@@ -303,7 +327,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>JAVASCRIPT</p>
                             <div class="boxcircle">
                                 <div class="circle-graph1 progresscircle " data-percent="50"></div>
@@ -323,9 +347,9 @@
                         <h1 class="title-sub ">BACK-END</h1>
                     </div>
                     <div class="collumcenter">
-                       
 
-                        <div class="skill">
+
+                        <div class="skillpersent">
                             <p>PHP</p>
                             <div class="boxcircle">
                                 <div class="circle-graph2 progresscircle " data-percent="60"></div>
@@ -336,7 +360,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>MYSQL</p>
                             <div class="boxcircle">
                                 <div class="circle-graph2 progresscircle " data-percent="50"></div>
@@ -365,7 +389,7 @@
                         <h1 class="title-sub ">FRAMEWORK</h1>
                     </div>
                     <div class="collumcenter">
-                        <div class="skill ">
+                        <div class="skillpersent ">
                             <p>BOOTSTRAP</p>
                             <div class="boxcircle">
                                 <div class="circle-graph3 progresscircle " data-percent="75"></div>
@@ -376,7 +400,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>JQUERY</p>
                             <div class="boxcircle">
                                 <div class="circle-graph3 progresscircle " data-percent="60"></div>
@@ -387,7 +411,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>LARAVEL</p>
                             <div class="boxcircle">
                                 <div class="circle-graph3 progresscircle " data-percent="50"></div>
@@ -407,7 +431,7 @@
                         <h1 class="title-sub ">TOOLS</h1>
                     </div>
                     <div class="collumcenter">
-                        <div class=" skill">
+                        <div class=" skillpersent">
                             <p>Photoshop</p>
                             <div class="boxcircle">
                                 <div class="circle-graph4 progresscircle " data-percent="70"></div>
@@ -418,7 +442,7 @@
 
                         </div>
 
-                        <div class="skill">
+                        <div class="skillpersent">
                             <p>Premier</p>
                             <div class="boxcircle">
                                 <div class="circle-graph4 progresscircle " data-percent="65"></div>
@@ -428,17 +452,7 @@
                             </div>
 
                         </div>
-
-                        <div class="skill">
-                            <p>After efect</p>
-                            <div class="boxcircle">
-                                <div class="circle-graph4 progresscircle " data-percent="30"></div>
-                                <div class="valuepersen">
-                                    <span class="count ">30</span><span>%</span>
-                                </div>
-                            </div>
-
-                        </div>
+                        <!--  -->
                     </div>
 
 
@@ -508,8 +522,7 @@
                             <p>rhavindra10@gmail.com</p>
                         </div>
                     </ul>
-                    <div class="underline"></div>
-                    <div class="underline"></div>
+
                 </div>
 
                 <div class="sosial col-6 mt-5">
@@ -526,8 +539,7 @@
                     <br>
                     <br>
 
-                    <div class="underline"></div>
-                    <div class="underline"></div>
+
                 </div>
             </div>
 
@@ -559,6 +571,7 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 </script>
@@ -568,7 +581,7 @@
 <script src="js/window.js"></script>
 <script src="js/jquery.easypiechart.js"></script>
 <script src="js/skill.js"></script>
-
+<script src="js/scrool.js"></script>
 <script>
 
 </script>

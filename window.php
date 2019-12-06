@@ -16,7 +16,7 @@
 
 
 <style>
-    .window-group {}
+
 </style>
 <div class="window">
 

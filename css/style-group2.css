@@ -50,10 +50,12 @@
     position: absolute;
     clip-path: polygon(90% 0, 100% 49%, 90% 100%, 10% 100%, 0% 50%, 10% 0);
     animation-name: GROUP2-BOX;
-    animation-duration: 0.5s;
+    animation-duration: 1.5s;
     animation-delay: none;
 
-    animation: GROUP2-BOX-skew 0.5s;
+    display: none;
+
+    animation: GROUP2-BOX-skew 1.5s;
 
 }
 
@@ -66,7 +68,7 @@
     color: white;
     top: 0px;
     animation-name: GROUP2-BOX;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-delay: none;
 
     text-shadow: 0px 10px 0px rgb(56, 9, 83);
@@ -82,7 +84,7 @@
     overflow: hidden;
 
     animation-name: GROUP2-BOX;
-    animation-duration: 1.5s;
+    animation-duration:2s;
     animation-delay: none;
 
 }
@@ -106,7 +108,7 @@
 
 }
 
-.box {
+.boxabout {
     margin: 0px;
 
     /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
