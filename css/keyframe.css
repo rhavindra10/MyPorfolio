@@ -145,13 +145,65 @@
 
 
 /* keyframe group skill */
-@keyframes skilltitle{
-    0%{
-        
+@keyframes skilltitle {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
     }
+
+    50% {}
+
+    100% {}
+}
+
+@keyframes title-sub {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {}
+
+    100% {}
+}
+
+@keyframes skill {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+
+        -moz-transform: scale(0);
+        -webkit-transform: scale(0);
+        -o-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+
+
+
+    }
+
+    50% {}
+
+    100% {}
 }
 
 
+/* akhir group3 */
 
 
 @keyframes textboxmove {
@@ -176,32 +228,6 @@
 }
 
 
-@keyframes btnchange {
-    0% {
-
-        transform: translateX(-90%);
-        opacity: 0;
-
-    }
-
-    100% {}
-}
-
-@keyframes btnav {
-    0% {
-        opacity: 0;
-        height: 20px;
-        width: 20px;
-
-    }
-
-    100% {
-        opacity: 1;
-        height: 220px;
-        width: 220px;
-
-    }
-}
 
 @keyframes btnsmall {
     0% {

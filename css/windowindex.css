@@ -1,37 +1,14 @@
-/* button clik */
-
-.window {
-    z-index: 4;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: none;
-
-}
-
-.btngroup {
-    width: 1200px;
-    top: 25%;
-    height: 50%;
-    background-color: none;
-    text-align: center;
-    transition: 1s;
-    z-index: 1;
-    position: fixed;
-
-}
-
 .btnnav {
-
+display: none;
     height: 220px;
     width: 220px;
     background-image: linear-gradient(-147deg, rgb(0, 225, 255), rgb(39, 174, 192));
-    position: relative;
+    position: fixed;
     max-width: 100%;
     top: 50%;
-
+    left: -160px;
     margin: auto;
-    z-index: 1;
+    z-index: 4;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -47,19 +24,7 @@
 
 }
 
-.btnnav-change {
 
-    width: 200px;
-    height: 200px;
-    position: fixed;
-    transform: translateX(-50%);
-    animation-name: btnchange;
-    animation-duration: 1s;
-    left: 0px;
-    top: 35%;
-    z-index: -1;
-
-}
 
 
 .btnnav:hover {
@@ -87,7 +52,7 @@
     text-shadow: #00000050;
     transform: rotate(0deg);
     font-size: 58px;
-    margin-left: 50px;
+    margin-left: 100px;
 
 }
 
@@ -98,23 +63,7 @@
 /* text jam tanggal */
 
 
-.textbox {
-    position: absolute;
-    z-index: 1;
-    top: 15%;
-    text-align: center;
-    color: aliceblue;
-    text-shadow: 0px 0px 20px rgb(0, 183, 255);
-    font-family: "glyp" !important;
-    font-size: 60px;
-    width: 100%;
-    height: auto;
-    animation-name: textbox;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 
-}
 
 
 .clock {
@@ -160,137 +109,70 @@
 /* ---------------------------------- */
 
 
-
-
-
-
-.section-left {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    padding: 12px;
-    background-image: linear-gradient(to bottom right, #6800a5, rgb(0, 121, 168));
-    z-index: 0;
-   
-    text-align: center;
-
-    width: 50%;
-    height: 100%;
-}
-
-.section-right {
-    position: absolute;
+.btnsmall {
+    position: relative;
+    height: 130px;
+    width: 130px;
     display: block;
-    right: 0px;
-    width: 50%;
-    height: 100%;
-    bottom: 1px;
-    padding: 12px;
-    background-image: linear-gradient(to bottom left, #6800a5, rgb(0, 121, 168));
-    text-align: center;
-    bottom: 0px;
-    z-index: 0;
-}
-
-/* shape left*/
-.shape-left {
-    border-left: 7px solid rgb(39, 174, 192);
-    border-top: 7px solid rgb(39, 174, 192);
-    border-bottom: 7px solid rgb(39, 174, 192);
-    border-right: rgba(255, 255, 255, 0);
-    border-style: double;
-    width: 50%;
-    height: 80%;
-    position: absolute;
-    top: 10%;
-    bottom: 40;
-    left: 50%;
-
-
-    animation-name: shape;
+    border-radius: 100%;
+    border: 2px solid rgba(252, 252, 252, 0.527);
+    background-color: rgba(0, 0, 0, 0.459);
+    transform: translateZ(2);
+    outline: none;
+    box-shadow: 0px 0px 10px 0px rgb(0, 183, 255);
+    animation-name: btnsmall;
     animation-duration: 1s;
 
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
 
 
 }
 
-.shapeglow-left {
+.nav {
+    position: fixed;
+    z-index: 3;
+    background: gray;
+display: none !important;
 
-    border-left: 7px solid rgb(39, 174, 192);
-    border-top: 7px solid rgb(39, 174, 192);
-    border-bottom: 7px solid rgb(39, 174, 192);
-    border-right: none;
-    width: 50%;
-    height: 80%;
+    max-width: 100%;
+    top: 50%;
+    left: 0px;
+    margin: auto;
+
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.smallbtn1 {
     position: absolute;
-    top: 10%;
-    bottom: 40;
-    left: 50%;
+    left: 30px;
+    top: -260px;
+    transform: translateZ(1);
 
-    filter: blur(10px);
 
-    animation-name: shape;
-    animation-duration: 1s;
-
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
 
 
 }
 
-
-
-/* shape right*/
-
-
-.shape-right {
-    border-right: 7px solid rgb(255, 255, 255);
-    border-top: 7px solid rgb(255, 255, 255);
-    border-bottom: 7px solid rgb(255, 255, 255);
-    border-style: double;
-    border-left: none;
-    width: 50%;
-    height: 80%;
+.smallbtn2 {
     position: absolute;
-
-
-    top: 10%;
-    bottom: 40;
-    right: 50%;
-    /* border-radius: 12px; */
-
-
-    animation-name: shape;
-    animation-duration: 1s;
-
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-
-    /* animation-iteration-count: infinite; */
-
+    left: 130px;
+    top: -150px;
+    transform: translateZ(1);
 }
 
-
-
-.shapeglow-right {
-    border-right: 8px solid rgb(255, 255, 255);
-    border-top: 8px solid rgb(255, 255, 255);
-    border-bottom: 8px solid rgb(255, 255, 255);
-    width: 51%;
-    height: 80%;
+.smallbtn3 {
     position: absolute;
+    left: 130px;
+    top: -0px;
+    transform: translateZ(1);
+}
 
-    top: 10%;
-    right: 50%;
-    bottom: 40;
-
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    filter: blur(10px);
-    animation-name: shape;
-    animation-duration: 1s;
-    /* animation-iteration-count: infinite; */
+.smallbtn4 {
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    transform: translateZ(1);
 
 }
