@@ -92,3 +92,10 @@ $('.count').each(function () {
 //     }, 1000);
 
 // }());
+
+$(window).resize(function () {
+    var width = $(window).width();
+    if (width < 1200) {
+      
+    }
+});

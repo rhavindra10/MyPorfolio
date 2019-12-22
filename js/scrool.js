@@ -42,7 +42,7 @@ $(window).scroll(function () {
             setTimeout(function () {
 
                 $(".title-sub").eq(i).addClass('title-sub-animation');
-            }, 100 * i + 1);
+            }, 500 * i + 1);
 
         })
         $('.skillpersent').each(function (i) {
@@ -50,7 +50,7 @@ $(window).scroll(function () {
 
                 $(".skillpersent").eq(i).addClass('skillpersent-animation');
 
-            }, 300 * i + 1);
+            }, 100 * i + 1);
 
         })
     }

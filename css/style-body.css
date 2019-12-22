@@ -1,28 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: table;
+    margin: auto;
+    overflow-x: hidden;
+    background: white;
+}
+
 /* bodystyle */
 body {
     height: auto;
-
-
     padding: 0;
-    min-width: 1020px;
-    width: 1900PX;
-    max-width: 100%;
+ 
     position: flex;
+    width: 100%;
+
     vertical-align: middle;
     background: black;
     margin: 0 auto;
 
 
 
+
 }
 
-.ONE {
 
-
-    background: none;
-    animation-name: ONE none;
-    animation-duration: 2s;
-}
 
 /* scroll bar web */
 ::-webkit-scrollbar {

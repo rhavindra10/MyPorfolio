@@ -26,6 +26,12 @@
 
 }
 
+.boxcol {
+    /* background: gray; */
+
+    width: 50%;
+}
+
 .title-animation {
     animation-name: skilltitle;
     animation-duration: 1s;
@@ -39,7 +45,7 @@
     font-size: 70px;
     text-shadow: 0px 10px 0px rgb(0, 0, 0);
     /* background-color: gray; */
-    width: 85%;
+    width: 100%;
     opacity: 0;
 
 }

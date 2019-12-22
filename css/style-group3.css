@@ -1,5 +1,6 @@
 .group3-style-1 {
     top: 0;
+    width: 100%;
     margin: 0;
     bottom: 0;
     height: 950px;
@@ -98,7 +99,7 @@
     animation-duration: 1.5s;
 
     display: block;
-
+    overflow: hidden;
 
 }
 
@@ -130,10 +131,10 @@
     left: 20px !important;
     position: absolute;
 
-    
+
     animation-name: nextprev;
     animation-duration: 3s;
-  
+
     border-radius: 100%;
 
     background: #4008CE;
@@ -152,11 +153,11 @@
     top: 500px !important;
     right: 20px !important;
     position: absolute;
-   
+
     animation-name: nextprev;
     animation-duration: 3s;
-  
-    
+
+
     border-radius: 100%;
 
     background: #4008CE;

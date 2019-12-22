@@ -1,125 +1,424 @@
-@media (max-width:800px) {
-    .tanggal {
-        position: fixed;
-        right: 20px;
-        bottom: 70px;
-        padding: 10px;
-        color: aliceblue;
-        font-size: 30px;
-        width: 250px;
-        min-width: 0;
+/* group 1 mobile */
+
+@media (max-width:900px) {
+
+    html {
+        display: block !important;
+        margin: auto;
+        overflow-x: hidden;
+        background: white;
+    }
+
+    body {
+        width: 420px !important;
+
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    }
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+
+
+    .group1-style-1 {
+        height: 800px !important;
+
+        overflow-x: hidden;
+        overflow-y: hidden;
 
     }
 
-    .clock {
-        z-index: 0;
-        position: fixed;
-        left: 20px;
-        bottom: 70px;
-        padding: 10px;
-        color: aliceblue;
-        font-size: 30px;
-        width: 150px;
-    }
+    .background-video {
 
-    .textbox {
-        font-size: 40px;
+        margin-left: -500px;
+        overflow-x: hidden !important;
 
-    }
-
-
-    .btnnav {
-        height: 150px;
-        width: 150px;
-        left: 0%;
-        animation-name: none;
-        animation-name: moves700back;
-        animation-duration: 0.5s;
-
-    }
-
-    .btnchange {
-        height: 100px;
-        width: 100px;
-        top: -65%;
-        animation-name: moves700;
-        animation-duration: 0.5s;
-
-        transform: rotate(0deg);
 
 
 
     }
 
+    .portfolio {
+        max-width: 400px;
+        width: 100% !important;
+        /* background: white !important; */
+        top: 10% !important;
+        animation-name: none !important;
+        margin-left: 2% !important;
+
+    }
+
+    .grid1 {
+
+        width: 300px !important;
+        height: 350px !important;
+        border-radius: 1px !important;
+
+        animation-name: textbox !important;
 
 
 
-    .btnsmallgroup {
+    }
 
-        position: absolute;
+    .circle {
+
+        width: 350px !important;
+        height: 480px !important;
+        margin-left: -50px !important;
+        border-radius: 1px !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        animation-name: textbox !important;
+
+
+
+    }
+
+    .grid1-profile {
+
+        width: 300px !important;
+        height: 400px !important;
+
+
+        margin-top: 0% !important;
+
+    }
+
+    .grid1 .boxnama {
+        bottom: -200px !important;
+        display: none !important;
+
+
+
+
+    }
+
+    .boxnamamobile {
+        display: block !important;
+        position: absolute !important;
         z-index: 1;
-        left: 0px;
-        transform: rotate(360deg);
-        transform: 1s;
+        top: 55%;
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 0px 0px 20px rgb(0, 183, 255);
+        font-family: "glyp" !important;
+        font-size: 10px !important;
+        width: 100%;
+        height: auto;
     }
 
-    .btnsmall {
+    .grid1 h1 {
 
-        height: 85px;
-        width: 85px;
-        animation-name: opacity;
-        animation-duration: 1s;
+
+
+        font-size: 20px !important;
 
 
     }
 
-    .smallbtn1 {
-        top: 0px;
+    .grid1 P {
+
+
+        font-size: 10px !important;
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .group2-style-1 {
+        height: 800px !important;
+    }
+
+    .group2-style-1 .boxgroup-boxcenter {
+
+        margin-top: 10% !important;
+        margin: 0 auto !important;
+
+        height: 800px !important;
+        margin-left: -3% !important;
+        background-image: none !important;
+        max-width: 400px;
+        padding: 0px !important;
+        clip-path: none !important;
+
+        display: block !important;
+
+
+    }
+
+    .group2-style-1 .boxgroup-boxcenter-box {
+
+        height: auto !important;
+
+    }
+
+    .boxabout {
+
+        font-size: 16px !important;
+
+    }
+
+    .group2-style-1 .boxgroup-boxcenter .Jdl {
+
+        font-size: 50px !important;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .group3-style-1 {
+        background-image: linear-gradient(-140deg, rgb(20, 146, 184), rgb(0, 95, 150));
+    }
+
+    .group3-style-1 .box1 {
+        display: block;
+        margin: 0px !important;
+        padding: 10px !important;
+        width: 100% !important;
+        max-width: 450px;
+        background: none !important;
+        border-radius: 0px !important;
+        /* clip-path: polygon(50% 0, 100% 0, 100% 100%, 14% 100%); */
+
+    }
+
+    .group3-style-1 .slide {
+        display: block;
+        max-width: 400px;
+        min-width: 400px;
+        width: 100% !important;
+
+        background: none;
+
+        /* clip-path: polygon(50% 0, 100% 0, 100% 100%, 14% 100%); */
+
+    }
+
+    .bxslide {
+        border-radius: 0px !important;
+        height: 700px !important;
+    }
+
+    .bxslide img {
+
+        border-radius: 0px !important;
+        height: 60% !important;
+        width: 100% !important;
+
+    }
+
+    .group3-style-1 .box1content h1 {
+        padding: 0;
+        /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
+
+
+        font-size: 50px !important;
+
+
+
+
+
+
+    }
+
+    #carouselExampleInterval {
+        display: block !important;
+    }
+
+    .group3-style-1 .box1content .title {
+
+
+        display: block !important;
+        font-size: 50px !important;
+
+    }
+
+    .penn {
+        display: none !important;
+    }
+
+    .nenn {
+
+
+        display: none !important;
+
+    }
+
+}
+
+/* skill */
+
+@media (max-width:900px) {
+
+    .groupskill {
+
+        height: 1200px !important;
+
+    }
+
+    .title {
+        font-size: 50px !important;
+
+
+
+
+    }
+
+    .title-sub {
+
+        font-size: 25px !important;
+
+
+    }
+
+
+
+    canvas {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .boxcol {
+        width: 100% !important;
+
+
+
+    }
+
+    .collumcenter {
+        margin: 0 auto;
+        height: 200px;
+        width: 100%;
+        /* background-color: gray; */
+    }
+
+    .skillpersent {
+
+        width: 100px !important;
+        margin: 0 auto !important;
+
+    }
+
+    .skillpersent p {
+
+        font-size: 20px !important;
+
+    }
+
+    .valuepersen {
         position: absolute;
-        transform: translate(-10%, -160px);
+        margin: auto;
+        justify-content: center;
+        /* background: rgb(37, 107, 134); */
+        left: 40%;
+        top: 35%;
+        font-family: "galaxy" !important;
+        font-size: 17px !important;
+    }
+}
+
+
+/* contact */
+@media (max-width:900px) {
+
+    .group4-style-1 {
+
+        height: 400px !important;
+
 
 
     }
 
-    .smallbtn2 {
-        position: absolute;
-        top: 0px;
-        transform: translate(-10px, -160px);
+
+    .group4-style-1 .box h2 {
+        margin-bottom: 2px !important;
+        font-size: 30px !important;
+
+
+
     }
 
-    .smallbtn3 {
-        top: 0px;
-        position: absolute;
-        transform: translate(150px, -160px);
+    .group4-style-1 .col-6 {
+        max-width: 100% !important;
     }
 
-    .smallbtn4 {
-        top: 0px;
-        position: absolute;
-        transform: translate(350px, -160px);
+    .group4-style-1 .box .boxcontact ul {
+
+        width: 100% !important;
+
+
+        /* background: rgba(0, 0, 0, 0.747); */
+
     }
 
+    .group4-style-1 .boxcontact .le {
 
+        font-size: 15px !important;
 
-    .shape-left {
-        height: 35%;
-        top: 32%;
-    }
-
-    .shapeglow-left {
-        height: 35%;
-        top: 32%;
-    }
-
-    .shape-right {
-        height: 35%;
-        top: 32%;
-    }
-
-    .shapeglow-right {
-        height: 35%;
-        top: 32%;
+        width: 100% !important;
     }
 
 
+
+
+    .group4-style-1 .boxcontact img {
+        width: 35px !important;
+    }
+
+    .group4-style-1 .underline {
+
+        width: 80% !important;
+        margin: auto;
+        height: 1px !important;
+
+
+
+    }
+
+    .group4-style-1 .boxsosmed li img {
+
+        margin: 2%;
+        width: 35px !important;
+
+
+    }
 }
