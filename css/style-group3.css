@@ -42,7 +42,7 @@
 .group3-style-1 .box1content {
     background: rgba(255, 255, 255, 0) !important;
     position: relative;
-    width: 90%;
+    width: 80%;
 
     border-radius: 12px;
     margin-top: 0% !important;
@@ -113,11 +113,19 @@
     max-width: 720px;
 }
 
+
+.bxslidecontent .jdl {
+    font-size: 50px ;
+    font-family: 'galaxy';
+    color: rgb(255, 255, 255);
+
+}
+
 .bxslidecontent {
     float: left;
-    width: 500px;
+    width: 40%;
     min-width: 35%;
-
+    text-align: justify;
     font-size: 20px;
 }
 

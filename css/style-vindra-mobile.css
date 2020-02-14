@@ -1,6 +1,6 @@
 /* group 1 mobile */
 
-@media (max-width:900px) {
+@media (max-width:720px) {
 
     html {
         display: block !important;
@@ -22,7 +22,7 @@
 
 
 
-@media (max-width:900px) {
+@media (max-width:720px) {
 
 
     .group1-style-1 {
@@ -144,10 +144,10 @@
 
 
 
+/* about */
 
 
-
-@media (max-width:900px) {
+@media (max-width:720px) {
     .group2-style-1 {
         height: 800px !important;
     }
@@ -200,11 +200,10 @@
 
 
 
+/* mywork */
 
 
-
-
-@media (max-width:900px) {
+@media (max-width:720px) {
     .group3-style-1 {
         background-image: linear-gradient(-140deg, rgb(20, 146, 184), rgb(0, 95, 150));
     }
@@ -221,9 +220,10 @@
 
     }
 
+
     .group3-style-1 .slide {
-        display: block;
-        max-width: 400px;
+        display: none;
+        max-width: 500px !important;
         min-width: 400px;
         width: 100% !important;
 
@@ -234,14 +234,18 @@
     }
 
     .bxslide {
-        border-radius: 0px !important;
-        height: 700px !important;
+        border-radius: 10px !important;
+        height: 720px !important;
+        width: 95%;
+        margin: 0 auto !important;
+
     }
 
     .bxslide img {
 
-        border-radius: 0px !important;
+        border-radius: 10px !important;
         height: 60% !important;
+        margin: 0 auto !important;
         width: 100% !important;
 
     }
@@ -249,13 +253,23 @@
     .group3-style-1 .box1content h1 {
         padding: 0;
         /* background-image: radial-gradient(circle, rgb(177, 239, 255), rgb(88, 169, 216)); */
-
-
+        display: block !important;
         font-size: 50px !important;
 
 
+    }
 
+    .bxslidecontent .jdl {
+        font-size: 23px !important;
+        padding: 1%;
+        width: auto !important;
 
+    }
+
+    .bxslidecontent {
+        font-size: 14px !important;
+        padding: 1%;
+        width: auto !important;
 
 
     }
@@ -285,9 +299,30 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* skill */
 
-@media (max-width:900px) {
+@media (max-width:720px) {
 
     .groupskill {
 
@@ -358,7 +393,7 @@
 
 
 /* contact */
-@media (max-width:900px) {
+@media (max-width:720px) {
 
     .group4-style-1 {
 

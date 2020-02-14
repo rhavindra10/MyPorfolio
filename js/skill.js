@@ -42,7 +42,7 @@ $(function () {
         scaleColor: false,
         lineWidth: 20,
         lineCap: 'butt',
-        barColor: 'rgb(114, 0, 180)',
+        barColor: 'rgb(10,122,168)',
         trackColor: 'rgb(14,53,92)',
         size: 150,
         animate: 4000,
